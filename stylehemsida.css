@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'EB Garamond';
+    src: url('Fonts/static/EBGaramond-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    width: auto;
+    height: auto;
+    background: #000000;
+    background: linear-gradient(1deg, rgba(0, 0, 0, 1) 0%, rgba(54, 1, 1, 1) 50%, rgba(0, 0, 0, 1) 100%);
+    font-family: 'EB Garamond', serif;
+    color: rgb(255, 252, 246);
+}
+
+.mainContainer {
+    max-width: 100%;
+    padding: 16px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 10px;
+    list-style: none;
+    gap: 1px;
+}
+
+.homeButton,
+.björnButton,
+.samiButton, .gabbiButton, .ivanButton, .johanButton, .handeButton {
+    display: flex;
+    justify-content: center;
+    color: #a7a7a7;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid rgba(167, 167, 167, 0.5);
+    background: rgba(76, 76, 76, 0.29);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    transition: all 0.3s ease;
+}
+
+.heroContainer {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 12px;
+    background: rgba(76, 76, 76, 0.29);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border: 1px solid rgba(76, 76, 76, 0.53);
+}
+
+.heroContainer img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.heroText {
+    color: #eeeeee;
+    overflow-wrap: break-word;
+}
+
+.heroText h1 {
+    font-size: 2.5rem;
+    margin-bottom: 8px;
+}
